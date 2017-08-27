@@ -1,0 +1,145 @@
+* {
+	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body .container{
+    width: 640px;
+    height: 640px;
+    margin: 10px auto;
+    border: solid 1px #000;
+    box-sizing:content-box;
+
+    
+}
+
+body .box{
+    float: left;
+
+}
+
+.colored {
+    background-color: green;
+
+}
+
+.title{
+    width: 640px;
+    margin: 10px auto;  
+}
+
+.title h2{
+    text-align: center;
+}
+
+.options {
+    width: 640px;
+    margin: 10px auto;  
+}
+
+
+
+.options #reset{
+    background-color:#dadada;
+    border-color: #dadada;
+    border-style: none;
+    width: 70px;
+    height: 50px;
+    border-radius: 25px
+
+}
+
+.options #reset:hover{
+    background-color:#c5c5c5;
+
+
+}
+
+.options #reset:active{
+    background-color:#29a300;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.pixels-container{
+    background-color: #dadada;
+    margin: 0 0 0 10px ;
+    display: inline-table;
+    padding: 0;
+    border-radius: 25px;
+
+
+    
+}
+
+.pixels-container p{
+    padding: 17px 0px 17px 14px;
+    margin: 0;
+    text-align:center;
+    border-radius: 25px;
+    width: 100px;
+    font-family:"arial";
+    font-size: 14px;
+    background-color:#dadada;
+    border-style: none;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+
+}
+
+#pixels{
+    background-color:#dadada;
+    border-style: none;
+    width: 55px;
+    height: 50px;
+    text-align:left;
+    border-radius: 25px;
+    font-size: 25px;
+    padding-left: 10px;
+    vertical-align: middle; 
+}
+
+.color{
+    height: 50px;
+    width: 50px;
+    border: solid 1px #ebebeb;
+    vertical-align: bottom;
+    border-radius: 25px;
+}
+
+#blue{
+    background-color:#56e2ff ;
+}
+
+#green{
+    background-color:#00e931 ;
+}
+
+#red{
+    background-color:#fb7979 ;
+}
+
+#yellow{
+    background-color:#f2f48b ;
+}
+
+#white{
+    background-color:#fff ;
+}
+
+#black{
+    background-color:#000 ;
+}
+
+h2{
+    font-size: 40px;
+}
